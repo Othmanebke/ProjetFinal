@@ -1,0 +1,85 @@
+.page
+{
+	width: 800px;
+	margin: auto;
+	font-style: oblique 40deg;
+	font-size: 17px;
+    border: 1px solid black;
+   
+
+
+}
+
+.infophoto
+{
+	height: 250px;
+	/*background-color: #D4D5DE;*/
+	background: linear-gradient(to right, whitesmoke, #A6ACAF);
+	
+}
+
+.info
+{
+	float: left;
+	font-weight: bolder;
+}
+
+.photo
+{
+	float: right;
+	max-width: 95%;
+	height: auto;
+	margin: auto;
+	
+}
+
+.section
+{
+	margin-bottom: 70px;
+	font-size: initial;
+	font-weight: 100;
+}
+
+.sec-gauche
+{
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+
+
+}
+
+.sec-droite
+{
+	margin-left: 150px;
+	font-size: 14px;
+	font-weight: bold;
+	
+	
+
+}
+
+h4
+{
+	color: #083198;
+	border-bottom: 3px solid #083198;
+	font-size: 20px;
+}
+
+.duree
+{
+	font-size: normal;
+	font-size: italic;
+	font-size: 12px;
+}
+
+.titre
+{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h3
+{
+	text-align: center;
+}

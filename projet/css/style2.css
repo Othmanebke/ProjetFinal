@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Montserrat&family=Playfair+Display:wght@600&family=Roboto&display=swap');
+
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(whitesmoke, #000000);
+	padding: 0;
+	margin: 0;
+	color: whitesmoke;
+}
+
+
+
+.page
+{
+	margin: 10px 40px;
+}
+
+nav
+{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	border-bottom: 2px solid #D2691E;
+	background-color: whitesmoke;
+    padding: 10px 5px;
+}
+
+
+.bqt
+{
+	 background-color: whitesmoke;
+	border: none;
+	color: #D2691E;
+	text-align: left;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 25px;
+	margin: 2px 2px;
+	border-radius: 15px;
+	text-align: left;
+	font-family: 'Mea Culpa', cursive;
+
+	
+}
+
+.of 
+{
+	background-color: whitesmoke;
+	border: none;
+	color: #D2691E;
+	text-align: left;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 25px;
+	margin: 2px 2px;
+	border-radius: 15px;
+	text-align: left;
+	font-family: 'Mea Culpa', cursive;
+
+	
+}
+
+.ctc
+{
+	background-color: whitesmoke;
+	border: none;
+	color: #D2691E;
+	text-align: left;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 25px;
+	margin: 2px 2px;
+	border-radius: 15px;
+	text-align: left;
+	font-family: 'Mea Culpa', cursive;
+
+	
+}
+
+
+
+.buttons1
+{
+	text-align: center;
+}
+
+
+.button
+{
+	background-color: whitesmoke;
+	border: none;
+	color: #D2691E;
+	text-align: left;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 25px;
+	margin: 2px 2px;
+	border-radius: 15px;
+	text-align: left;
+	font-family: 'Mea Culpa', cursive;
+
+	
+
+}
+
+.buttons
+{
+	
+	border: none;
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 25px;
+	margin: 2px 2px;
+	border-radius: 15px;
+	font-family: 'Mea Culpa', cursive;
+
+
+}
+
+
+
+
+header
+{
+	 margin-top: 40px;
+	 background-image: 
+    linear-gradient(to bottom, rgba(240, 255, 255,0.5), rgba(0, 0, 0,0.5)),
+    url(https://femmesdetunisie.com/wp-content/uploads/2017/02/rose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+
+
+header h1
+{
+	text-align: center;
+	font-size: 60px;
+	padding: 150px;
+	color: whitesmoke;
+	font-family: 'Mea Culpa', cursive;
+	animation: apparition 0.8s ease-out;
+}
+
+@keyframes apparition {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		margin-top: 25px;
+		transform: rotate(-5deg);
+	}
+	50% {
+		font-size: 40px;
+		color: #D2691E;
+	}
+	75% {
+		opacity: 1;
+	}
+}
+
+#animation .page {
+	color: black;
+	animation-name: apparition;
+	animation-duration: 2s;
+	animation-delay: 1.5s;
+	animation-iteration-count: 1;
+}
+
+
+
+footer
+{
+
+	color: #D2691E;
+	padding: 25px;
+
+
+}
+
+footer .colonnes
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.colonnes
+{
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+p
+{
+   font-family: 'Mea Culpa', cursive;
+   font-size: 35px;
+
+}
+

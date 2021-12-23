@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Montserrat&family=Playfair+Display:wght@600&family=Roboto&display=swap');
+
+body
+{
+	font-family: 'Mea Culpa', cursive;margin-top: 40px;
+	background-image: 
+    url(https://ns328286.ip-37-187-113.eu/ew/wallpapers/800x480/05584_800x480.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+#container
+{
+    width : 500px;
+	height : 600px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right : 20px;
+	border: 2px solid black;
+	background: linear-gradient(grey, black);
+	margin: auto; /* 10px 10px 10px 10px */	
+	animation: apparition 2.5s ease-out
+}
+
+@keyframes apparition 
+{
+	from {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+
+h1
+{
+   color: whitesmoke;	
+   font-style: italic;
+   border-bottom: 1px solid whitesmoke;
+  
+}
+
+
+img {
+  width: 390px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}

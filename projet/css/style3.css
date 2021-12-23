@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Montserrat&family=Playfair+Display:wght@600&family=Roboto&display=swap');
+
+body
+{
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(to left,#283747, whitesmoke );
+	padding: 0;
+	margin: 0;
+	color: black;
+	margin-top: 20px;
+}
+
+.page
+{
+
+	width: 700px;
+	margin: auto;
+	font-style: oblique 40deg;
+	font-size: 27px;
+	animation: apparition 0.8s ease-out;
+    
+}
+
+@keyframes apparition 
+{
+	from {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+
+
+
+.infophoto
+{
+	height: 250px;
+}
+
+.info
+{
+	float: left;
+	font-weight: bolder;
+}
+
+.img1
+{
+	width: 32%;
+	float: right;
+	box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+
+.info2
+{
+	float: left;
+	font-weight: bolder;
+}
+
+.img2
+{
+	width: 32%;
+	float: right;
+	box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+
+.info3
+{
+	float: left;
+	font-weight: bolder;
+}
+
+.img3
+{
+	width: 32%;
+	float: right;
+	box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+
+}
+
+.info4
+{
+	float: left;
+	font-weight: bolder;
+}
+
+
+.img4
+{
+	width: 32%;
+	float: right;
+	box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+
+}
+
+.info5
+{
+	float: left;
+	font-weight: bolder;
+}
+
+
+.img5
+{
+	width: 32%;
+	float: right;
+	box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+
+}
+
+
+.info6
+{
+	float: left;
+	font-weight: bolder;
+}
+
+
+.img6
+{
+	width: 32%;
+	float: right;
+	box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+
+}
+
+
+
+
+.photo 
+{
+	font-family: 'Mea Culpa', cursive;
+	text-align: center;
+
+}
+
+
+
+h3
+{
+	border-bottom: 2px solid black;
+	font-family: 'Mea Culpa', cursive;
+	text-align: center;
+}

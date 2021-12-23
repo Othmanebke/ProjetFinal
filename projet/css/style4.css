@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Montserrat&family=Playfair+Display:wght@600&family=Roboto&display=swap');
+
+
+
+body
+{
+	font-family: 'Mea Culpa', cursive;
+	background: linear-gradient(goldenrod, whitesmoke);
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+	color: black;
+}
+
+h2  
+{
+     font-family: 'Mea Culpa', cursive;
+     font-size: 40px;
+     animation: apparition 0.8s ease-out;
+}
+
+@keyframes apparition 
+{
+	from {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+p ,h4
+{
+	font-family: 'Mea Culpa', cursive;
+	font-size: 25px;
+	animation: apparition 2.2s ease-out;
+}
+
+@keyframes apparition 
+{
+	from {
+		opacity: 0;
+		transform: translateZ(-100px);
+	}
+	to {
+		opacity: 1;
+		transform: translateZ(0px);
+	}
+}
+
+
+.main 
+{
+	margin: 20px;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.cards
+{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.cards .card 
+{
+	margin-right: 20px;
+	cursor: pointer;
+
+}
+
+
+.cards .card img
+{
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+     width: 350px;
+     height: 350px;
+     animation: apparition 2.5s ease-out;
+}
+
+@keyframes apparition 
+{
+	from {
+		opacity: 0;
+		transform: translateX(-100px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+
+
+.cards .card .card-header
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.cards .card .card-body p
+{
+	margin-top: -10px;
+}
+
+.sansfond
+{
+     float: right;
+	width: 190px;
+     height: 190px;
+     animation: apparition 5s ease-out
+    
+}
+
+@keyframes apparition 
+{
+	from {
+		opacity: 0;
+		transform: translate(-100px);
+	}
+	to {
+		opacity: 1;
+		transform: translate(0px);
+	}
+}
+
